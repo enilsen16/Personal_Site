@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :projects
+
   # get 'pages/home' => 'high_voltage/pages#show', id: 'home'
   # match '/:id' => 'high_voltage/pages#show', :as => :static, :via => :get
   # get 'pages/about' => 'high_voltage/pages#show', id: 'about'
