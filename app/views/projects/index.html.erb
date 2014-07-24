@@ -1,8 +1,8 @@
 <h1>Projects</h1>
   <% @projects.each do |project| %>
-      <strong>Name of the project:</strong><%= project.title %><br>
-      <strong>Description:</strong><%= project.description %><br>
-      <strong>Technologies Used:</strong><%= project.technologies_used %><br>
+      <strong>Name of the project: </strong><%= project.title %><br>
+      <strong>Description: </strong><%= project.description %><br>
+      <strong>Technologies Used: </strong><%= project.technologies_used %><br>
         <%= link_to 'Show', project %>
         <%= link_to 'Edit', edit_project_path(project) %>
         <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %><br>
