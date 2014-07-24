@@ -1,31 +1,12 @@
-<h1>Listing projects</h1>
+<h1>Projects</h1>
+  <% @projects.each do |project| %>
+      <strong>Name of the project:</strong><%= project.title %><br>
+      <strong>Description:</strong><%= project.description %><br>
+      <strong>Technologies Used:</strong><%= project.technologies_used %><br>
+        <%= link_to 'Show', project %>
+        <%= link_to 'Edit', edit_project_path(project) %>
+        <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+      <% end %>
+  <br>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Image</th>
-      <th>Technologies used</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.title %></td>
-        <td><%= project.description %></td>
-        <td><%= project.image %></td>
-        <td><%= project.technologies_used %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Project', new_project_path %>
+  <%= link_to 'New Project', new_project_path %>
