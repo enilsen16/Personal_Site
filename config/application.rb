@@ -12,6 +12,8 @@ module PersonalSite
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+config.action_mailer.delivery_method = :postmark
+config.action_mailer.postmark_settings = { :api_key => "eeb1ca33-d274-4dd9-98e0-345caed805c4" }
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
