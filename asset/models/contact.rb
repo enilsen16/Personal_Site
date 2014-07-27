@@ -4,9 +4,9 @@ class Contact < MailForm::Base
   attribute :message
   attribute :nickname, captcha => true
 
- def headers
+  def headers
     {
-      :subject => "Contact form from site",
+      :subject => "Contact form from personal site",
       :to => "enilsen16@live.com",
       :from => %("#{name}" <#{email}>)
     }
