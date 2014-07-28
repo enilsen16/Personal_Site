@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <%=  link_to 'About', page_path('about') %>
-    <h1> Welcome to my Portfolio</h1>
+    <%=  link_to 'Home', page_path('home') %> |
+    <%= link_to 'About', page_path('about') %> |
+    <%= link_to 'Projects', projects_path %> |
+    <%#= link_to 'Contact', contact_path %>
+    <h1> Welcome </h1>
+    <p>
+      Please checkout my personal <a href=http://www.github.com/enilsen16>Github</a> to see what I am currently and have worked on.
+    </p>
+
+    <p>
+      View my listed projects to see some of my best work
+    </p>
+
+    <%= link_to 'Projects', projects_path %>
+
   </body>
 </html>
