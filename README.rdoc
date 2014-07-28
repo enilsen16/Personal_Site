@@ -1,3 +1,0 @@
- #Updated Personal Site
-
-This repo contains the code for my current personal portfolio site. It has a home, about, projects, and contact page.
