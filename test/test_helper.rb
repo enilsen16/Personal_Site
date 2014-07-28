@@ -7,4 +7,5 @@ require "minitest/rails/capybara"
 class ActiveSupport::TestCase
   ActiveRecord::Migration.check_pending!
   fixtures :all
+  puts "Rails env is: " + Rails.env + "."
 end
