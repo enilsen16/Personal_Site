@@ -1,5 +1,31 @@
-[![Codeship Status for enilsen16/Personal_Site](https://www.codeship.io/projects/3cab8780-f8bc-0131-6a94-020f798c491b/status)](https://www.codeship.io/projects/28742)
+Freelancer Jekyll theme
+=========================
 
-#Updated Personal Site
+Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
 
-This repo contains the code for my current personal portfolio site. It has a home, about, projects, and contact page.
+## How to use
+ - Place a image in `/img/portoflio/`
+ - Create posts to display your projects. Use the follow as an example:
+```txt
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: cabin.png
+alt: image-alt
+project-date: July 2014
+client: The Client
+category: Web Development
+description: The description of the project
+
+---
+```
+
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
+
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+
+=========
+For more details, read [documentation](http://jekyllrb.com/)
