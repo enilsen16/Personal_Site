@@ -1,3 +1,1 @@
-web: bundle exec jekyll serve -P $PORT -V
-console: echo console
-rake: echo rake
+web: bundle exec rackup config.ru -p $PORT

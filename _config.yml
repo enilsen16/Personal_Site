@@ -31,4 +31,4 @@ address:
 markdown: kramdown
 permalink: pretty
 
-exclude: ['vendor']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
