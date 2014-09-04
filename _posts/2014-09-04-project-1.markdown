@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2014-09-04
+img:
+alt:
+project-date: May 2014
+client: Code Fellows
+category: Web Development
+description: Created Eefgilm, a ruby gem for for keeping your gemfile in best practice. Project initially was completed in 1 week.
+
+---
