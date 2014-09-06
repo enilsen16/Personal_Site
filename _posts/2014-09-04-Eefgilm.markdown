@@ -7,6 +7,6 @@ alt: Eefgilm-logo
 project-date: May 2014
 client: Code Fellows
 category: Web Development
-description: Created Eefgilm, a ruby gem for for keeping your gemfile in best practice. Project initially was completed in 1 week.
+description: Created Eefgilm, a ruby gem for for keeping your gemfile in best practice. Currently has over 1,500 downloads. Project initially was completed in 1 week. </br> <a href="https://github.com/enilsen16/Eefgilm">View Eefgilm's source code</a>
 
 ---

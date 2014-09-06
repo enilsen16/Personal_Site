@@ -7,6 +7,6 @@ alt: Ordr-Logo
 project-date: June 2014
 client: Code Fellows
 category: Web Development
-description: Ordr is a job searching application that helps job seekers track each application with potential employers. Project initially was completed in 3 days.
+description: Ordr is a job searching application that helps job seekers track each application with potential employers. Project initially was completed in 3 days. </br> <a href="http://ordr.herokuapp.com">Check out Ordr</a>
 
 ---
