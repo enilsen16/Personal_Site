@@ -2,8 +2,8 @@
 layout: default
 modal-id: 1
 date: 2014-09-04
-img:
-alt:
+img: gemfile.png
+alt: Eefgilm-logo
 project-date: May 2014
 client: Code Fellows
 category: Web Development
