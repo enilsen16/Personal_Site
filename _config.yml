@@ -1,17 +1,17 @@
-# Site settings
 title: Erik Nilsen
-email: erik@erikdnilsen.com
-description: "Personal website for Erik Nilsen, a Full Stack Web Developer and Software Engineer"
+email: enilsen16@live.com
+url: http://www.erikdnilsen.com
+description: "Personal website for Erik Nilsen, Ruby and JavaScript Developer."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
-
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -24,18 +24,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Greater Seattle Area
+  - line: Seattle, WA
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-exclude:
- - unicorn.rb
- - README.md
- - Procfile
- - Gemfile
- - Gemfile.lock
- - config.ru
- - vendor
- - app.json

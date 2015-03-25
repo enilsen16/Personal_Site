@@ -7,6 +7,6 @@ alt: Urban-Pass-LOGO
 project-date: January 2015
 client: Personal Project
 category: Web Development
-description: A command-line tool that uses Urban Dictionary to create random passwords. [Urban_Pass](www.github.com/enilsen16/urban_pass)
+description: A command-line tool that uses Urban Dictionary to create random passwords. </br> <a href="http://github.com/enilsen16/urban_pass">Check out Urban Pass</a>
 
 ---
