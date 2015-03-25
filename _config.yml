@@ -3,6 +3,10 @@ title: Erik Nilsen
 email: erik@erikdnilsen.com
 description: "Personal website for Erik Nilsen, a Full Stack Web Developer and Software Engineer"
 
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
